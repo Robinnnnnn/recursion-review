@@ -22,29 +22,3 @@ var getElementsByClassName = function(className) {
 
 };
 
-// var getElementsByClassName = function (className) {
-//   let allClasses = [];
-//   let parent = document.body;
-
-//   function find(parent) {
-//     if (parent.nodeType === 1) {
-//       for (let n = 0; n <= parent.classList.length - 1; n++) {
-//         if (parent.classList[n] === className) {
-//           allClasses.push(parent);
-
-//         }
-//       }
-//     }
-//     if (parent.nodeType === 1 && parent.childNodes) {
-//       for (let i = 0; i <= parent.childNodes.length - 1; i++) {
-//         if (parent.childNodes[i].nodeType === 1) {
-//           find(parent.childNodes[i]);
-//         }
-//       }
-//     }
-//   }
-
-//   find(parent);
-//   return allClasses;
-// };
-
